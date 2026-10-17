@@ -3,10 +3,10 @@
     {
       "command": [
         "go",
-        "vet",
+        "build",
         "./..."
       ],
-      "name": ".:go:vet",
+      "name": ".:go:build",
       "timeout_seconds": 600
     }
   ],
