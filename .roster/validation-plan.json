@@ -1,0 +1,14 @@
+{
+  "required_checks": [
+    {
+      "command": [
+        "go",
+        "vet",
+        "./..."
+      ],
+      "name": ".:go:vet",
+      "timeout_seconds": 600
+    }
+  ],
+  "schema_version": "roster-repository-validation-plan-v1"
+}
