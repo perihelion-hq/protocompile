@@ -59,7 +59,7 @@ func testItemsSequence(t *testing.T, path string, data []byte) {
 	require.NoError(t, err)
 	tokens := leavesAsSlice(root)
 	require.NoError(t, err)
-	// Make sure sequence matches the actual leaves in the tree
+	// Check that the item sequence matches tree leaves and their associated comments.
 	seq := root.Items()
 	// Both forwards
 	item, ok := seq.First()
